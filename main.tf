@@ -36,7 +36,7 @@ resource "azurerm_service_plan" "frontend_plan" {
   resource_group_name = azurerm_resource_group.rg2.name
   location            = var.location2
   os_type             = "Linux"
-  sku_name            = "B1" 
+  sku_name            = "B1"
 
   tags = {
     environment = var.environment

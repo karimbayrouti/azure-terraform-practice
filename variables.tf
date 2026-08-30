@@ -4,7 +4,7 @@ variable "location" {
   default     = "Germany West Central"
 }
 variable "location2" {
-   description = "Specific Azure region for resourcea"
+  description = "Specific Azure region for resourcea"
   type        = string
   default     = "Italy North"
 }

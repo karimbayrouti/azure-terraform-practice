@@ -18,6 +18,8 @@ rg-frontend-practice (Germany West Central)
     └── app-shipping-frontend  Linux Web App, Node 20-lts
 ```
 
+![Azure resource groups](azure-resources.png)
+
 Resource groups, the virtual network, and the subnet are built with
 `resource` blocks Terraform fully owns. Downstream resources reference
 `azurerm_resource_group.rg1.location` / `.name` rather than hardcoded
